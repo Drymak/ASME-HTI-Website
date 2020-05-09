@@ -1,6 +1,6 @@
 /* ////////////////////////////////////////////HomePage/////////////////////////////////////////////////////////////////// */
-.banner{height: 785px;background-image: url("../images/banner.png");background-repeat: no-repeat;min-height: 100vh;
-        background-size: cover;background-position: center center;background-attachment: fixed;z-index: 0;mix-blend-mode: color;}
+.banner{height: 753px;background-image: url("../images/banner.png");background-repeat: no-repeat;
+        background-size: cover;background-position: center center;min-height: 100vh;}
 
 .img_dimention_home{width: 220px;height: 90px; }
 
