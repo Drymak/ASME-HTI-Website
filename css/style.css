@@ -116,7 +116,7 @@ section .side#side2{clip-path: polygon(100% 0, 62% 0, 37% 29%, 64% 41%, 35% 58%,
 .scroll-text{font-family: 'Righteous', cursive; position: absolute; top: 340px;left: 100px;} */
 
 /* /////////////////// */
-.about_body{padding:20px;width: 100%;max-width: 100%;}
+.about_body{padding:50px;width: 100%;max-width: 100%;}
 .navbar a{font-family: 'Righteous', cursive;}
 
 .card_team{margin: 0;padding: 0;min-height: 100vh;display: flex;justify-content: center;align-items: center;font-family: consolas;position: relative;}
