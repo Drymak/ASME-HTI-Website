@@ -68,6 +68,7 @@ background-size:100% 100%}
 }
 @media only screen and (max-width: 1000px) {
       .mar{margin-left:-50px;}
+      .M_TOP{margin-top: 20px;}
 
     }
 
