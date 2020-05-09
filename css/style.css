@@ -152,7 +152,6 @@ box-sizing: border-box;text-align: center;    }
 .team_container .box:hover .content p{opacity: 1;transform: translateY(0px);transition-delay: 0.7s;}
 
 .team_container .box:hover .content a{opacity: 1;transform: translateY(0px);transition-delay: 0.9s;}
-
 /* ///////////////// //////////////////////////////////////////////////////////////////////////////////*/
 .bg-custom-1 {background-color: #85144b;}
 
@@ -174,9 +173,40 @@ box-sizing: border-box;text-align: center;    }
 
 .card-body{text-align: left;padding-left: 2px;}
 
-.foot{width: 100%;height: 100px;background-color: #000;}
-.card-text{font-family: 'Montserrat', sans-serif;color: #1f4068;}
+.foot{background-color: #000;}
 
+.card-text{font-family: 'Montserrat', sans-serif;color: #1f4068;}
 /* /////////////////////////////////////////////////////////////////////////////////////////////////// */
 
-/* p,h2,h1,h3{text-transform: capitalize;} */
+.footer {
+      background: #162447;
+      color: white;
+}
+.footer .links ul {
+      list-style-type: none;
+}
+.footer .links li a {
+      color: white;
+      transition: color 0.2s;
+}
+.footer .links li a:hover {
+      text-decoration: none;
+      color: #4180cb;
+}
+.footer .about-company i {
+      font-size: 25px;
+}
+.footer .about-company a {
+      color: white;
+      transition: color 0.2s;
+}
+.footer .about-company a:hover {
+      color: #4180cb;
+}
+.footer .location i {
+      font-size: 18px;
+}
+.footer .copyright p {
+      border-top: 1px solid rgba(255, 255, 255, .1);
+}
+
