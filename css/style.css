@@ -143,7 +143,7 @@ box-sizing: border-box;text-align: center;    }
 .team_container .box .content h2,
 .team_container .box .content p,
 .team_container .box .content a
-{opacity: 0;transition: 0.5s;transform: translateY(20px);    }
+{opacity: 0;transition: 0.5s;transform: translateY(20px);color: #162447;    }
 
 .team_container .box:hover .content h2{opacity: 1;transform: translateY(0px);transition-delay: 0.5s;}
 
