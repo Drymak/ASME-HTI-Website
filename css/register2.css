@@ -1,0 +1,9 @@
+body, html { 
+    font-family: serif;
+    height: 100%;
+    width:100%; 
+    position: fixed;
+    overflow: hidden;
+    color: #161A39;
+    margin: 0;
+}
