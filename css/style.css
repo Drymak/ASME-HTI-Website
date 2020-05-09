@@ -177,6 +177,7 @@ box-sizing: border-box;text-align: center;    }
 /* /////////////////////////////////////////////////////////////////////////////////////////////////// */
 
 .footer {
+      width: 100%;
       background: #162447;
       color: white;
 }
