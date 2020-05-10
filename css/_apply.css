@@ -1,18 +1,19 @@
 @charset "utf-8";
 .main{background-image: url("../images/first.jpg")
-	;background-size: contain;;background-repeat: no-repeat;
-		;height: 100%;background-position: right
+	;background-size: contain;
+	;background-repeat: no-repeat;
+	;height: 100%;background-position: right
 			
 }
 
 @media only screen and (max-width: 750px) {
   .main {
     background-image: url("../images/mob2.jpg");background-size: contain;
-  }
+     }
+	
 	.btn{margin-bottom: 10%}
+	
 	.header h2{
-	border-bottom: #160ECD;
-	border-top: #160ECD;
 	border-bottom: groove;
 	border-top: groove;
 	width: 100%
@@ -22,7 +23,8 @@
 	
 	
 }
-.h2 h3{	font-family: 'Montserrat', sans-serif;color: #1f4068;
+.h2 h3{	font-family: 'Montserrat', sans-serif;
+	color: #1f4068;
 }
 .navbar a{font-family: 'Righteous', cursive;}
 
@@ -34,16 +36,16 @@
 .header{padding-top: 2% ;}
 
 .header h2{font-family: 'Righteous', cursive;
-	border-bottom: #160ECD;
-	border-top: #160ECD;
-	border-bottom: groove;
-	border-top: groove;
+	  border-style: solid;
+                border-width: 3px 0;
+	border-bottom-color:#162447;
+	border-top-color:#162447;
 	width: 60%
 	;margin-bottom: 2%
 		;color:#162447
 }
 .h2{margin-bottom: 1%}
-btn{
+btn{ border-radius:2em;
 	margin-bottom:20%
 }
 
