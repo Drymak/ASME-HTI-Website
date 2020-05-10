@@ -47,8 +47,9 @@
 .h2{margin-bottom: 1%}
 btn{ border-radius:2em;
 	margin-bottom:20%
+		;
 }
-
+.btn-primary{background-color: #1f4068}
 .h2{padding-top: 2%}
 
 
