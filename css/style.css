@@ -75,7 +75,7 @@ background-size:100% 100%}
 
 .team-left h2{color: #009bff;text-transform: uppercase;margin-bottom: 30px; font-weight: 900;letter-spacing: 4px;}
 
-.swiper-container { width: 440px; height: 440px; position: absolute; }
+.swiper-container { width: 500px; height: 500px; position: absolute; }
 
 .swiper-slide {background-position: center;background-size: cover;}
 
