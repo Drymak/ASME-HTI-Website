@@ -61,17 +61,19 @@ background-size:100% 100%}
    }
 
 
-   @media(max-width:550px) {
+   @media only screen and(max-width:550px) {
       .empty_div{display: none;}
       .apply_button{width: 80px; height: 30px;border-top-left-radius:20px; border-bottom-right-radius: 20px;font-size: 10px; top: -8px;}
-      .marge{margin-left:-95px!important;}
 }
 @media only screen and (max-width: 1000px) {
       .mar{margin-left:-50px;}
       .M_TOP{margin-top: 20px;}
       .swiper-container {max-width: 300px; max-height:300px;}
+      .marge{left: -50px;}
 
     }
+
+ 
 
 .team-left h2{color: #009bff;text-transform: uppercase;margin-bottom: 30px; font-weight: 900;letter-spacing: 4px;}
 
