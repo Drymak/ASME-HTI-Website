@@ -8,7 +8,7 @@
 
 @media only screen and (max-width: 750px) {
   .main {
-    background-image: url("../images/mob2.jpg");background-size: contain;
+    background-image: url("../images/mob2.jpg");background-size: contain;padding-bottom: 33%
      }
 	
 	.btn{margin-bottom: 10%}
