@@ -21,7 +21,7 @@ font-size: 14px;font-weight: bolder;padding: 5px;position: relative;top: -5px;}
 .searchbar{margin-bottom: auto;margin-top: auto;height: 50px;background-color: white;
           border-radius: 30px;padding: 5px;}
 
-.search_input{color: #009bff;border: 0;outline: 0;background: none;width: 0;caret-color:transparent;
+.search_input{color: #162447;border: 0;outline: 0;background: none;width: 0;caret-color:transparent;
              line-height: 40px;transition: width 0.3s linear;}
 
 .searchbar:hover > .search_input{padding: 0 3px;width: 300px;caret-color:#009bff;transition: width 0.4s linear;}
@@ -73,7 +73,7 @@ background-size:100% 100%}
 
     }
 
- 
+
 
 .team-left h2{color: #009bff;text-transform: uppercase;margin-bottom: 30px; font-weight: 900;letter-spacing: 4px;}
 
@@ -216,4 +216,3 @@ box-sizing: border-box;text-align: center;    }
 .footer .copyright p {
       border-top: 1px solid rgba(255, 255, 255, .1);
 }
-
