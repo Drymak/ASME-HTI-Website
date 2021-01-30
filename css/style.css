@@ -1,7 +1,7 @@
 /* ////////////////////////////////////////////HomePage/////////////////////////////////////////////////////////////////// */
 
 
-.banner{height: 753px;background-image: url("../images/banner_1.jpeg");background-repeat: no-repeat;
+.banner{height: 753px;background-image: linear-gradient(to right, #0c054d, #1a1257, #261f62, #322b6c, #3d3876, #3d3876, #3d3876, #3d3876, #322b6c, #261f62, #1a1257, #0c054d);
       background-size: cover;background-position: center center;min-height: 100vh;max-height: 100vh;}
 
 .img_dimention_home{width: 220px;height: 90px; }
@@ -59,7 +59,51 @@ background-size:100% 100%}
 .apply_button{width: 80px; height: 30px;border-top-left-radius:20px; border-bottom-right-radius: 20px;font-size: 10px; top: -8px;}
 .about_body{max-width: 100%;}
    }
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
 
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+}
+.intro {
+  height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.1rem;
+}
+.intro-slideshow img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index:-1;
+  opacity: 0;
+  transition: opacity 0.75s ease-in-out;
+}
+.intro .intro-header {
+  border-radius: 0.5rem;
+  padding: 2rem 2.5rem;
+  background-color: rgba(0,0,0,0.5);
+}
+.intro h1 {
+  font-size: 4rem;
+  margin-bottom: 0.75rem;
+}
+.intro p {
+  font-size: 1.75rem;
+}
+
+@media (max-width: 700px) {
+  html { font-size: 12px; }
+  .intro-header { padding: 1.5rem 2rem; }
+  .intro h1 { font-size: 2.5rem; }
+  .intro p { font-size: 1.25rem; }
+}
 
    @media only screen and(max-width:550px) {
       .empty_div{display: none;}
@@ -192,7 +236,7 @@ box-sizing: border-box;text-align: center;    }
 
 .footer {
       width: 100%;
-      background: #2a2e4b;
+      background: #2a2e4b!important;
       color: white;
 }
 .footer .links ul {
