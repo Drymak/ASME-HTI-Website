@@ -33,7 +33,6 @@
 .main{
 	width: 100%;
 	padding-bottom: 16%;
-    border-radius: 70px;
     position: relative;
     height: 900px;
 }
@@ -63,7 +62,7 @@ btn{border-radius:2em;
     position: absolute;
     left: 10%;
     top:10%;
-    height:80%;
+    height:90%;
     justify-self: center;
 }
 /*----------------asme design ----------*/
