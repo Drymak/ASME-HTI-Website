@@ -1,7 +1,10 @@
 @charset "utf-8";
 .main{
+    /*background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(../images/banner.png) 
+                no-repeat center center ;
+    background-size: cover;*/
     background-image: linear-gradient(to right, #0c054d, #1a1257, #261f62, #322b6c, #3d3876, #3d3876, #3d3876, #3d3876, #322b6c, #261f62, #1a1257, #0c054d);
-	height: 800px;
+	height: 1500px;
 }
 
 @media only screen and (max-width: 750px) {
@@ -12,6 +15,7 @@
         top:15%;
         height:750px;
         width: 650px;
+        overflow-y:hidden;
     }
     .main {
     background-size: contain;
