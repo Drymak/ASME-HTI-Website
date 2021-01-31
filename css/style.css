@@ -4,7 +4,7 @@
 .banner{height: 753px;
     background-image:url(../images/banner.png);
     /*background-image: linear-gradient(to right, #0c054d, #1a1257, #261f62, #322b6c, #3d3876, #3d3876, #3d3876, #3d3876, #322b6c, #261f62, #1a1257, #0c054d)*/
-      background-size: cover;background-position: center center;min-height: 100vh;max-height: 100vh;}
+    background-size: cover;background-position: center center;min-height: 100vh;max-height: 100vh;}
 
 .img_dimention_home{width: 220px;height: 90px; }
 
