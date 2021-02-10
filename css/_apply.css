@@ -1,10 +1,10 @@
 @charset "utf-8";
 .main{
-    /*background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(../images/banner.png) 
+    /*background-image: linear-gradient(to right, #0c054d, #1a1257, #261f62, #322b6c, #3d3876, #3d3876, #3d3876, #3d3876, #322b6c, #261f62, #1a1257, #0c054d);
+	height: 1500px;*/
+    background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(../images/app-01.png) 
                 no-repeat center center ;
-    background-size: cover;*/
-    background-image: linear-gradient(to right, #0c054d, #1a1257, #261f62, #322b6c, #3d3876, #3d3876, #3d3876, #3d3876, #322b6c, #261f62, #1a1257, #0c054d);
-	height: 1500px;
+    background-size: cover;
 }
 
 @media only screen and (max-width: 750px) {
@@ -40,7 +40,7 @@
     position: relative;
     height: 900px;
 }
-/*
+
 .h2 h3{	font-family: 'Montserrat', sans-serif;
 	color: #1f4068;
 }
@@ -61,14 +61,14 @@ btn{border-radius:2em;
 }
 .btn-primary{background-color: #1f4068}
 .h2{padding-top: 2%}
-*//*form */
-.form{
+/*form */
+/*.form{
     position: absolute;
     left: 10%;
     top:10%;
     height:90%;
     justify-self: center;
-}
+}*/
 /*----------------asme design ----------*/
 
 .asme-design{
