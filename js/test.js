@@ -74,7 +74,7 @@ const entry=new student({
 })
 entry.save()
 
-	res.sendFile('success.html', {root: '../Pages/'})
+	res.sendFile('success.html', {root: '../'})
 		}	)
 
 
